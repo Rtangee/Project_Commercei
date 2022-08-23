@@ -1,0 +1,84 @@
+1번.  
+create table EMPLOYEE (
+	ID varchar2(10) not null, primary key,
+	NAME varchar2(20) not null,
+	AGE int(3),
+	SALARY decima(8,2)
+		     );
+
+2번
+insert into EMPLOYEE values ('aaa','홍길동',30,3000)
+
+3번
+where EMPLOYEE_ID = 100 
+and DEPARTMENT_NAME = Executive
+
+4번
+where LAST_NAME = 'King'
+from emp table
+
+5번
+
+6번
+1) HttpServlet
+2) doGet
+3) 
+
+7번
+
+8번
+1) servlet
+2) servlet-name
+3) init-param
+4) param-name
+
+9번
+/hello.jsp
+
+10번
+1) Classes
+2) Lib
+3) web.xml
+4) index
+
+11번
+1) request
+2) response
+3) session
+4) pageContext
+5) out
+6) application
+7) config
+8) page
+9) exception
+
+12번
+1) page 영역
+2) request 영역
+3) session 영역
+4) application 영역
+
+13번
+>3번
+
+14번
+
+15번
+
+16번
+
+17번
+
+18번
+JSP  
+장점 : HTML 중심의 코드 구조이므로 디자인 작업에 바로 사용이 가능하다
+단점 : 소스코드가 공개되며 외부인이 소스를 수정하여 손상시킬수있다.
+
+Servlet
+장점 : 복잡한 프로그램 로직 구현에 적합
+단점 : 컴파일 결과(.class)만 있어도 가능하므로 소스 코드를 보호할 수 있다
+
+19번
+>2번
+
+20번
